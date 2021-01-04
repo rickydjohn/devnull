@@ -1,0 +1,7 @@
+GO DEPENDENCY MANAGEMENT
+
+This generally fails while trying to do a go build or building dependencies. Solve it by adding the following git commands
+
+1. git config --global url.ssh:url.ssh://git@github.com/.insteadOf https://github.com/
+2. git config user.email "xxxx@xxxx.com"
+3. git config user.name "name name"
